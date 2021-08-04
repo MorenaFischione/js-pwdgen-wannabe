@@ -10,6 +10,25 @@ document.getElementById("colore-preferito").innerHTML = colorePreferito ;
 
 document.getElementById("password-generata").innerHTML= nome + cognome + colorePreferito + "21";
 
+var mese = "settembre";
+var anno = "1984";
+var giorno = "13";
+var età = 2021;
+
+document.getElementById("data-nascita").innerHTML= giorno + mese + anno;
+
+document.getElementById("età").innerHTML = età - anno;
+console.log ("eta");
+
+
+var mele =  parseInt( prompt("numero di mele acquistate"));
+var prezzoCadauna = parseInt( prompt("prezzo di cadauna mela"));
+
+document.getElementById("numero").innerHTML = mele;
+document.getElementById("prezzo").innerHTML = prezzoCadauna;
+document.getElementById("risultato").innerHTML = mele * prezzoCadauna
+
+
 
 
 
