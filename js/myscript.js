@@ -23,11 +23,18 @@ console.log ("eta");
 
 var mele =  parseInt( prompt("numero di mele acquistate"));
 var prezzoCadauna = parseInt( prompt("prezzo di cadauna mela"));
+var risultato = parseInt (mele * prezzoCadauna);    
 
 document.getElementById("numero").innerHTML = mele;
 document.getElementById("prezzo").innerHTML = prezzoCadauna;
 document.getElementById("risultato").innerHTML = mele * prezzoCadauna
 
+var sconto = 10;
+document.getElementById("sconto").innerHTML=sconto;
+var meleScontate = risultato * 10 /100;
+document.getElementById("mele-scontate").innerHTML=meleScontate;
+
+document.getElementById("prezzo-def").innerHTML= risultato - meleScontate;
 
 
 
